@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "django-enum-ex"
-version = "0.1.0"
+version = "0.1.1"
 description = "一个基于 Django 3.0 Choices 枚举类型的独立包"
 authors = ["codetalks <banxi1988@gmail.com>"]
+readme = "README.md"
+repository =  "https://github.com/banxi1988/django-enum-ex"
+keywords = ["Django","Choices", "Enum","EnumField", "ChoicesField"]
 
 [[tool.poetry.source]]
 name = 'aliyun'
