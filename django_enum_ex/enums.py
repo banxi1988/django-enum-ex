@@ -115,6 +115,10 @@ class Choices(enum.Enum, metaclass=ChoicesMeta):
     lines = doc.splitlines()
     return lines[0].strip()
 
+  @classmethod
+  def db_fallback_item(cls,value:Any):
+    """可以为从数据库读取回来的异常值提供一个 fallback,方便兼容老的数据"""
+    pass
 
 
 

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-enum-ex"
-version = "0.1.1"
+version = "0.2.0"
 description = "一个基于 Django 3.0 Choices 枚举类型的独立包"
 authors = ["codetalks <banxi1988@gmail.com>"]
 readme = "README.md"
